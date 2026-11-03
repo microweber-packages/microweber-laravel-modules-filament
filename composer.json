@@ -1,0 +1,41 @@
+{
+    "name": "microweber-packages/microweber-laravel-modules-filament",
+    "description": "Microweber CMS integration with Laravel Modules Filament",
+    "authors": [
+        {
+            "name": "Microweber",
+            "email": "info@microweber.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+        "phpunit/phpunit": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MicroweberPackages\\LaravelModulesFilament\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MicroweberPackages\\LaravelModulesFilament\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "homepage": "http://microweber.com",
+    "license": "MIT",
+    "support": {
+        "email": "support@microweber.com"
+    },
+    "replace": {
+        "microweber-packages/laravel-modules-filament": "*"
+    },
+    "require": {
+        "microweber-packages/microweber-filament-registry": "*",
+        "microweber-packages/microweber-laravel-modules": "*"
+    }
+}
