@@ -1,13 +1,1 @@
 parameters:
-	ignoreErrors:
-		-
-			message: '#^MicroweberPackages\\LaravelModulesFilament\\LaravelModulesFilamentServiceProvider\:\:packageBooted\(\) calls parent\:\:packageBooted\(\) but MicroweberPackages\\LaravelModulesFilament\\LaravelModulesFilamentServiceProvider does not extend any class\.$#'
-			identifier: class.noParent
-			count: 1
-			path: src/LaravelModulesFilamentServiceProvider.php
-
-		-
-			message: '#^MicroweberPackages\\LaravelModulesFilament\\LaravelModulesFilamentServiceProvider\:\:register\(\) calls parent\:\:register\(\) but MicroweberPackages\\LaravelModulesFilament\\LaravelModulesFilamentServiceProvider does not extend any class\.$#'
-			identifier: class.noParent
-			count: 1
-			path: src/LaravelModulesFilamentServiceProvider.php
